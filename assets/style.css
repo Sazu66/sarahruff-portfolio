@@ -41,7 +41,14 @@ header {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-      }
+  }
+
+header nav ul a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+  }
 
 /* HEADER / NAVBAR STYLES END */
 
@@ -54,9 +61,11 @@ header {
 }    
 
 .hero-text {
+    font-size: 1.55vw;
     color: var(--primary-color);
     position: absolute;
     bottom: 0;
     right: 0;    
+    padding-right: 35px;
 }
  
