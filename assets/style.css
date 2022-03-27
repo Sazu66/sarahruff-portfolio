@@ -1,5 +1,5 @@
 :root {
-    --primary-color: white;
+    --primary-color: goldenrod;
     --secondary-color: gold;
     --tertiary-color: red;
 }
@@ -12,7 +12,7 @@
 
   body, html {
     color: var(--tertiary-color);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     height: 100%;
   }
 
@@ -20,36 +20,35 @@
 
 header {
     padding: 20px 35px;
-    background-color: var(--primary-color);
-    display: flex;
+    background-color: #c56e1d;
+    display:flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: 9999;
+    flex-wrap: wrap;  
   }
   
   header h1 {
     font-weight: bold;
     margin: 0;
-    font-size: 36px;
-    color: var(--primary-color);
+    font-size: 45px;
+    color: goldenrod;
+    text-decoration: none;
+    margin: 0;
   }
 
   header nav ul a {
-    padding: 10px 15px;
+    padding: 20px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+    color: goldenrod;
+    text-decoration: none;
   }
 
 header nav ul a:hover {
-    background: var(--primary-color);
-    color: var(--secondary-color);
+    background: var(--secondary-color);
+    color: gold;
     border-radius: 15px;
     text-shadow: none;
   }
-
 /* HEADER / NAVBAR STYLES END */
 
 .hero-image {
@@ -58,14 +57,28 @@ header nav ul a:hover {
     background-position: center;
     background-size: cover;
     position: relative;
+    opacity: 0.75;
 }    
 
 .hero-text {
-    font-size: 1.55vw;
+    font-size: 1.75vw;
     color: var(--primary-color);
     position: absolute;
     bottom: 0;
     right: 0;    
     padding-right: 35px;
+}
+
+/* TITLE SECTIONS */
+.column-left {
+float: left;
+width: 25%;
+font-size: 40px;
+text-align: right;
+padding-top: 25px;
+}
+
+.column-right {
+    
 }
  
