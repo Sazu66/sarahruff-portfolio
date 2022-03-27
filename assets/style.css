@@ -1,0 +1,62 @@
+:root {
+    --primary-color: white;
+    --secondary-color: gold;
+    --tertiary-color: red;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body, html {
+    color: var(--tertiary-color);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
+  }
+
+  /* HEADER / NAV BAR STYLES START */
+
+header {
+    padding: 20px 35px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 9999;
+  }
+  
+  header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: var(--primary-color);
+  }
+
+  header nav ul a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+      }
+
+/* HEADER / NAVBAR STYLES END */
+
+.hero-image {
+    background-image:url(images/mayur-deshpande-zZPeoLxLRyM-unsplash.jpg);
+    height: 50%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}    
+
+.hero-text {
+    color: var(--primary-color);
+    position: absolute;
+    bottom: 0;
+    right: 0;    
+}
+ 
