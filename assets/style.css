@@ -112,4 +112,11 @@ p {
     height: 150px;
   }
 
-  /*TITLE SECTION STYLE*/
+  /*WORK SECTION*/
+  .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 15px;
+      width: 80%;
+  }
