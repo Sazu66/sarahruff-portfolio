@@ -79,10 +79,12 @@ header nav ul a:hover {
     height: 300px;
     
 }
+
 .left {
     padding-top: center;
     color: goldenrod;
     justify-content: end;
+  
   }
   
 h3 {
