@@ -8,10 +8,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
 
   body, html {
-    color: var(--tertiary-color);
+    color: var(--secondary-color);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     height: 100%;
   }
@@ -45,12 +46,13 @@ header {
 
 header nav ul a:hover {
     background: var(--secondary-color);
-    color: gold;
+    color: rgb(172, 152, 41);
     border-radius: 15px;
     text-shadow: none;
   }
 /* HEADER / NAVBAR STYLES END */
 
+/*HERO IMAGE*/
 .hero-image {
     background-image:url(images/mayur-deshpande-zZPeoLxLRyM-unsplash.jpg);
     height: 50%;
@@ -68,17 +70,44 @@ header nav ul a:hover {
     right: 0;    
     padding-right: 35px;
 }
+/*HERO IMAGE END*/
 
 /* TITLE SECTIONS */
-.column-left {
-float: left;
-width: 25%;
-font-size: 40px;
-text-align: right;
-padding-top: 25px;
-}
-
-.column-right {
+.column {
+    float: left;
+    padding: 75px;
+    height: 300px;
     
 }
- 
+.left {
+    padding-top: center;
+    color: goldenrod;
+    justify-content: end;
+  }
+  
+h3 {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.right {
+    display: flex;
+    width: 75%;
+}
+
+p {
+    padding-left: 20px;
+    font-size: 20px;
+    color: goldenrod;
+  }
+
+  img {
+    display: flex;
+    margin-left: 0;
+    border-style: solid;
+    color: gold;
+    width: 200px;
+    height: 150px;
+  }
+
+  /*TITLE SECTION STYLE*/
